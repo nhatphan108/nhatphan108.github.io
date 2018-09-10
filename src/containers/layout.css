@@ -1,0 +1,14 @@
+.introduction-flex-display{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.introduction-flex-item{
+    flex:1;
+    min-width:15em;
+    padding:10px;
+    height:auto;
+    max-height:5%;
+    overflow:hidden;
+}

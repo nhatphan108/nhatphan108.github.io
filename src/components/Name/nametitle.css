@@ -1,0 +1,43 @@
+.name-title{
+    position:relative;
+    color: white;
+    text-align:center;
+}
+.name-title li{
+
+    padding-left: 4em;
+    display:inline-block;
+}
+.name-title h1{
+    color:#c9675a;
+    font-size:5em;
+    font-family:'Palatino';
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:0;
+    margin-bottom:0;
+    padding-top:5px;
+    width:60%;
+    border-top: 2px solid #c9675a;
+    border-bottom: 2px solid #c9675a;
+}
+.name-title ul li{
+    text-decoration:none;
+}
+.name-title h1:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
