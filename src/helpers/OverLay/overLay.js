@@ -1,5 +1,6 @@
 import React from 'react';
 import './overlay.css';
+import FontAwesome from 'react-fontawesome';
 const LayOver = (props) => {
     return (
         <div className={props.classes}>
@@ -9,6 +10,7 @@ const LayOver = (props) => {
                 </div>
                 <div className="layover-second-layer">
                     <ul>
+                    
                         {props.bottomList.map(eachElement => <li>{eachElement}</li>)}
                     </ul>
                     <div class="arrow-animation">

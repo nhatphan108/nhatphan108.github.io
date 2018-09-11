@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import FlipBox from '../components/FlipBox/flipBox';
 import Name from '../components/Name/nametitle';
-import Links from '../components/Links/Links';
-import Overlay from '../components/OverLay/overLay';
+import Overlay from '../helpers/OverLay/overLay';
+import About from '../components/About Me/about';
 import './layout.css';
 class LayOut extends Component {
     state = {
@@ -50,6 +49,7 @@ class LayOut extends Component {
             <div>
                 <Name />
                 {introductions}
+               <About />
             </div >
 
         )

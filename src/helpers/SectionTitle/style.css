@@ -1,0 +1,13 @@
+.section-title{
+    margin: 1em auto;
+    height:auto;
+    padding: 10px;
+    font-size:3.5 em;
+    color:#c9675a;
+    border-left: 2px solid #c9675a;
+    border-right: 2px solid #c9675a;
+    min-width:30%;
+    width:30%;
+    text-align:center;
+    overflow:hidden;
+}

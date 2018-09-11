@@ -1,0 +1,26 @@
+.about-flex-container{
+    background-color:rgb(221, 185, 135);
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border-radius:5%;
+}
+.about-us .about-us-title{
+    width:100%;
+    font-family:fantasy;
+    text-align:center;
+    padding-top:1em;
+    font-size:3em;
+    color:#c9675a;
+}
+.about-flex-item{
+    flex:1;
+    min-width: 11em;
+    max-width: 18em;
+    margin:1em;
+    height:25em;
+  
+}
