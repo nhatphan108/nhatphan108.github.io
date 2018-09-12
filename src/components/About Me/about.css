@@ -1,5 +1,5 @@
 .about-flex-container{
-    background-color:rgb(221, 185, 135);
+
     display:flex;
     flex-wrap:wrap;
     flex-direction:row;
@@ -23,4 +23,7 @@
     margin:1em;
     height:25em;
   
+}
+.about-flex-container .about-flex-item:first-child {
+    height:60em !important;
 }
