@@ -6,7 +6,6 @@ const SectionTitle = (props) =>
     return (
         <div>
         <h1 class="section-title"> {props.title} </h1>
-        <FontAwesomeIcon name='chalkboard-teacher' />
         </div>
     )
 }

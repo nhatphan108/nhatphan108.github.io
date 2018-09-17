@@ -2,12 +2,12 @@
     margin: 1em auto;
     height:auto;
     padding: 10px;
-    font-size:3.5 em;
-    color:#c9675a;
-    border-left: 2px solid #c9675a;
-    border-right: 2px solid #c9675a;
-    min-width:30%;
+    font-size:4.2 em;
+    color: #D8C3A5;
+    border-top: 2px solid  #D8C3A5;
+    border-bottom: 2px solid  #D8C3A5;
     width:30%;
+    max-width:15em;
     text-align:center;
     overflow:hidden;
 }
