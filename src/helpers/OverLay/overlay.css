@@ -41,7 +41,7 @@
     border-top: 0 solid #AF9164;
     border-bottom: 0 solid #AF9164;
 }
-.layover-container:hover .layover-second-layer{
+.layover-second-layer-clicked{
     padding-bottom:2em;
     margin-top: 2em;
     opacity:1;
@@ -54,7 +54,7 @@
     line-height:3em;
 }
 
-.layover-container:hover .layover-first-layer{
+.layover-first-layer-clicked{
   
     border-left: 2px dashed #D8C3A5;
     border-right: 2px dashed #D8C3A5;
