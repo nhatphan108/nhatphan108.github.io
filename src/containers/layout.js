@@ -55,7 +55,6 @@ class LayOut extends Component {
                 <img className="picture" src= {picture2} alt="test2"/>
                 </div>
                 {introductions}
-                <About />
             </div >
 
         )

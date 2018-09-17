@@ -32,7 +32,7 @@ class LayOver extends Component {
                             {this.props.bottomList.map(eachElement => <li>{eachElement}</li>)}
                         </ul>
                         <div class="arrow-animation">
-                            <a href="#">&#8595;</a>
+                            <a href="#">&rarr;</a>
                         </div>
                     </div>
 
