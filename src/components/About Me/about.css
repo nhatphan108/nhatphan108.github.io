@@ -14,7 +14,6 @@
     text-align:center;
     padding-top:1em;
     font-size:3em;
-    color:#c9675a;
 }
 .about-flex-item{
     flex:1;
@@ -24,33 +23,35 @@
     height:25em;
   
 }
-.about-flex-container div.about-flex-item:first-of-type .card-front{
-    color:#dac4f7 ;
-    border:3px solid #dac4f7 ;
-}
+/*
 .about-flex-container div.about-flex-item:nth-of-type(2) .card-front{
+    color:#c9675a ;
+    border:3px solid #c9675a ;
+}
+.about-flex-container div.about-flex-item:nth-of-type(1) .card-front{
     
-    color:#ffb997 ;
-    border: 3px solid #ffb997 ;
+    color: #c9675a;
+    border: 3px solid #c9675a;
 }
 .about-flex-container div.about-flex-item:nth-of-type(3) .card-front{
   
-    color:#f4989c;
-    border: 3px solid #f4989c;
+    color:#c9675a;
+    border: 3px solid #c9675a;;
 }
 .about-flex-container div.about-flex-item:nth-of-type(4) .card-front{
-    color:#86bb91;
-    border: 3px solid #86bb91
-}
-.about-flex-container div.about-flex-item:first-of-type .card-back{
-    border-color:#dac4f7 ;
+    color:#c9675a;
+    border: 3px solid #dac4f7;
 }
 .about-flex-container div.about-flex-item:nth-of-type(2) .card-back{
-    border-color:#ffb997 ;
+    border-color:#915ed4;
+}
+.about-flex-container div.about-flex-item:nth-of-type(1) .card-back{
+    border-color:#4b68cf;
 }
 .about-flex-container div.about-flex-item:nth-of-type(3) .card-back{
-    border-color:#f4989c;
+    border-color:#dac4f7;
 }
 .about-flex-container div.about-flex-item:nth-of-type(4) .card-back{
-    border-color:#86bb91;
+    border-color:#3a974c;
 }
+*/
