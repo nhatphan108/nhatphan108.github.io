@@ -49,7 +49,7 @@ class LayOut extends Component {
             <div>
                 <Name />
                 {introductions}
-               <About />
+                <About />
             </div >
 
         )

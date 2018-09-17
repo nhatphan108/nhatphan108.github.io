@@ -1,9 +1,10 @@
 import React from 'react';
 import './flipBox.css';
 const FlipBox = (props) => {
-
+    const newClass ="flip-index-" + props.index;
+    const classes = [props.class,newClass];
     return (
-        <div className={props.class}>
+        <div className={classes.join(" ")}>
         <div  className="flip-container">
             <div className="card-flip">
                 <div className="card-front">
