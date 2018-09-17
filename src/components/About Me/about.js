@@ -23,7 +23,7 @@ class About extends Component {
             },
             {
                 front: {
-                    frontTitle: "Computer Science"
+                    frontTitle: "Coding"
                 },
                 back: {
 
@@ -40,19 +40,19 @@ class About extends Component {
         ]
     }
     render() {
+      
         const flipBoxes = (
             <div class="about-us">
             <div class="about-flex-container">
                 <h1 class="about-us-title"> Bucket List Before 30 </h1>
-                {this.state.flipboxes.map(eachBox =>
-                    <FlipBox class="about-flex-item" key={eachBox.frontTitle} {...eachBox} />
+                {this.state.flipboxes.map((eachBox,index) =>
+                    <FlipBox class="about-flex-item" index={index} key={eachBox.frontTitle} {...eachBox} />
                 )}
             </div>
             </div>
         )
         return (
             <div>
-                <Sectiontitle title="About Me" />
                 {flipBoxes}
             </div>
         )
