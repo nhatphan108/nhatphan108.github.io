@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
-import Name from '../components/Name/nametitle';
-import Overlay from '../helpers/OverLay/overLay';
-import About from '../components/About Me/about';
+import React, { Component } from 'react'
+import Name from '../components/Name/nametitle'
+import Overlay from '../helpers/OverLay/overLay'
+import About from '../components/About Me/about'
+import picture from './profile_fiverr.png';
+import picture2 from './profile.jpg';
 import './layout.css';
 class LayOut extends Component {
     state = {
@@ -10,7 +12,7 @@ class LayOut extends Component {
                 topTitle: 'Get Personal',
                 bottomList:[
                     'How I Started',
-                    'My Checklist Before 30',
+                    'My Hobbies',
                     'My Band',
                     'Where I Want To Be'
                 ]
@@ -21,7 +23,7 @@ class LayOut extends Component {
                     'My Github',
                     'What Skills Do I Have',
                     'Projects I Worked On',
-                    'Collaborate ?'
+                    'Resume'
 
                 ]
             },
@@ -31,7 +33,7 @@ class LayOut extends Component {
                     'Where I Work',
                     'What I Do',
                     'Where I Intern',
-                    'How experienced I was when I applied'
+                    'Collaborate ?'
                 ]
             }
         ]
@@ -48,6 +50,10 @@ class LayOut extends Component {
         return (
             <div>
                 <Name />
+                <div className="picture-container">
+                <img className="picture" src= {picture} alt="test" />
+                <img className="picture" src= {picture2} alt="test2"/>
+                </div>
                 {introductions}
                 <About />
             </div >
